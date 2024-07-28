@@ -1,0 +1,8 @@
+- hosts: chromeOS
+  vars:
+    devel: true
+  roles:
+  - UniInc.ChromeOS-Linux-Fixes
+  - UniInc.Apache-in-Docker
+  
+
